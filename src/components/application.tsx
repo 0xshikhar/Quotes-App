@@ -26,13 +26,8 @@ export const fetchQuotes = async (count: number) => {
 }
 
 const Application = () => {
-  const [quote, setQuote] = useState<Quote>();
   const [quotes, setQuotes] = useState<Quote[]>([]);
   const [count, setCount] = useState(10);
-
-  useEffect(() => {
-    fetchRandomQuote().then(setQuote);
-  }, []);
 
   useEffect(() => {
     fetchQuotes(count).then(setQuotes);

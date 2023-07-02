@@ -1,3 +1,6 @@
-# React and TypeScript Example
+# Quotes App
 
-This is an exmaple application from Steve's React and TypeScript course.
+It is a small application that shows quotes from a API built using ReactJS and Typescript.
+Just for fun and learning of some concetps in Typescript.
+
+

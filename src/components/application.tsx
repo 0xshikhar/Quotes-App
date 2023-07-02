@@ -31,7 +31,9 @@ const Application = () => {
     <main className="w-full max-w-2xl py-16 mx-auto">
       <InspirationalQuote content={quote.content} source={quote.source} />
       <Quotes>
-        <div className="grid grid-cols-2 gap-4"></div>
+        <div className="grid grid-cols-2 gap-4">
+          <InspirationalQuote content={quote.content} source={quote.source} />
+        </div>
       </Quotes>
     </main>
   );
